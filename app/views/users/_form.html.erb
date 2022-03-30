@@ -32,6 +32,6 @@
   </div>
 
   <div>
-    <%= form.submit %>
+    <%= form.submit ("Sign Up" if request.path == new_user_path), class:"btn btn-primary btn-sm" %>
   </div>
 <% end %>
